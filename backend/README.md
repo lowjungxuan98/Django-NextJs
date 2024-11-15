@@ -257,10 +257,5 @@ Run the following command to build and start your Docker containers:
 # [2. User Module](../backend/documentation/user_module.md)
 # [3. Property Module](../backend/documentation/property_module.md)
 # [4. Chat Module](../backend/documentation/chat_module.md)
-# [5. WebSocket Feature](../backend/documentation/websocket_feature.md)
-
-temp
-```shell
-cd backend/djangobnb_backend 
-   source env/bin/activate
-```
+# [5. WebSocket Feature](../backend/documentation/websocket_module.md)
+# [6. Deployment](../backend/documentation/deployment.md)
