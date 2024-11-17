@@ -296,7 +296,7 @@ Once connected to your Droplet, set up the environment to run your Django applic
    ```bash
    cd Djangobnb/backend
    cp .env.dev djangobnb_backend/.env
-   nano djangobnb_backend/.env
+   vi djangobnb_backend/.env
    ```
    
    - **Edit `.env`:**
@@ -321,7 +321,7 @@ Set up Nginx to serve your frontend and proxy backend requests appropriately.
 
 1. **Navigate to Nginx Configuration Directory:**
    ```bash
-   cd ~/webapps/
+   cd ~
    sudo service nginx start
    cd /etc/nginx/sites-enabled/
    ```
@@ -329,7 +329,7 @@ Set up Nginx to serve your frontend and proxy backend requests appropriately.
 2. **Create and Edit `frontend.conf`:**
    ```bash
    sudo touch frontend.conf
-   sudo nano frontend.conf
+   sudo vi frontend.conf
    ```
 
    **Example `frontend.conf`:**
