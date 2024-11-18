@@ -8,8 +8,8 @@ interface AddPropertyButtonProps {
 }
 
 const AddPropertyButton: React.FC<AddPropertyButtonProps> = ({
-    userId
-}) => {
+                                                                 userId
+                                                             }) => {
     const loginModal = useLoginModal();
     const addPropertyModal = useAddPropertyModal();
 
@@ -22,12 +22,11 @@ const AddPropertyButton: React.FC<AddPropertyButtonProps> = ({
     }
 
     return (
-        <div 
+        <button
             onClick={airbnbYourHome}
-            className="p-2 cursor-pointer text-sm font-semibold rounded-full hover:bg-gray-200"
-        >
-            Djangobnb your home
-        </div>
+            className="hidden md:block cursor-pointer p-2 text-sm font-semibold rounded-full hover:bg-gray-200">
+            Airbnb your home
+        </button>
     )
 }
 
